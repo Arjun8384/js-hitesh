@@ -4,7 +4,7 @@ let accMail = "arjun@gmail.com";
 var accPass = "12324"
 actCity = "Jaipur"
 let accState  // allowed to not filling any value in it, only declaration
-// accId = 2 It is not allowed to declare without giving any type let/var/const
+// accId = 2 //not allowed to reassign value already assigned in const
 
 accMail = "akr@ar.com"
 accPass = "123232"
