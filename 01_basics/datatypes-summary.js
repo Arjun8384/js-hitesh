@@ -23,7 +23,7 @@ console.log(id === anotherId);
 // Array, Objects, Functions
 
 const heros = ["shaktiman", "naagraj", "doga"];
-let myObj = {
+let myObj = {                     // object is like dictionary in python that can be stored with or without a variable
     name: "hitesh",
     age: 22,
 }
