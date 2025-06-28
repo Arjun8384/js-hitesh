@@ -1,12 +1,12 @@
 //  Primitive
 
-//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+//  7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
 const score = 100
 const scoreValue = 100.3
 
 const isLoggedIn = false
-const outsideTemp = null
+const outsideTemp = null // it means empty; here 0 would mean temperature = 0deg
 let userEmail;
 
 const id = Symbol('123')
