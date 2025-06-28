@@ -1,6 +1,6 @@
-"use strict"; // it will treat all code as per newer version of JS
+"use strict"; // it will treat all code as per newer version of JS (introduced in ECMAScript5 or ES5) 
 
-//alert(2+2); // it will result in newer versions of JS b/c it works on browser and not in node or other specific JS machines
+//alert(2+2); // it will result error in newer versions of JS b/c it works on browser and not in node or other specific JS machines
 
 // code readability should always  be high
 // refer to tc39.es and mdn for documentations of any
