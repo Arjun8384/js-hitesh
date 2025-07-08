@@ -1,0 +1,48 @@
+relational operator
+<, >, <=, >=, ==, !=, ===, !==
+
+if, else if, else
+
+condition is always boolean
+
+logical operators
+&&, ||, !
+'===' check if datatype is also same at both sides
+
+switch
+switch (key) {   // key can be numeric or character
+    case value:
+       statement; // executes if key == value
+        break;   // break the switch if this condition/case matched otherwise all will be checked
+
+    default:     // like if-else, it is 'else' block here
+        break;
+}
+
+
+truthy/falsy
+falsy values
+
+false, 0, -0, BigInt 0n, "", null, undefined, NaN
+
+truthy values
+"0", 'false', " ", [], {}, function(){}, anything in quotes ("dsf")
+
+
+Nullish Coalescing Operator (??): null undefined
+
+let val1;
+val1 = 5 ?? 10
+val1 = null ?? 10       // this null can be returned by a function used in a big code file, to handle that to avoid error, it is used
+val1 = undefined ?? 15      // if first value is false, next true value (here, 15) get assigned to the variable 
+val1 = null ?? 10 ?? 20
+
+Terniary Operator
+break, continue
+
+below is used to replace if-else SyntaxError,making it more efficient
+condition ? true : false
+
+Used example is below
+const iceTeaPrice = 100
+iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
