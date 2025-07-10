@@ -36,14 +36,15 @@ marvel_heros.push(dc_heros) // the array is pushed as a single element in the an
 // console.log(allHeros);
 
 const all_new_heros = [...marvel_heros, ...dc_heros]        // merges 2 or more arrays more efficiently, we can add multiple arrays to merge in one by similar method as it is
-
+// above is also k/s spread operator
 // console.log(all_new_heros);
 
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
 const real_another_array = another_array.flat(Infinity)     // flats the multi-D arrays to 1-D array; Infinity can be replace depth number like 2 or 3, depending upon dimensions 2D or 3D
 console.log(real_another_array);
-
+const myArr = [0, 1, 2, 3, 4, 5]
+const newCombo = [a,b, ...restVal]    // a=0, b=1 restVal = [2,3,4,5]; it is k/s rest operator
 
 
 console.log(Array.isArray("Hitesh"))        // checks if it is array, returns boolean
