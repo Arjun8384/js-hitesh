@@ -20,3 +20,25 @@
 </html>
 
 
+//-----------------------------console code for manipulation------------------
+document.getElementById('title')    //returns element having this ID
+document.getElementById('title').id        
+document.getElementById('title').class
+document.getElementById('title').className
+document.getElementById('title').getAttribute('id or class of id=title')    // returns attribute name
+document.getElementById('title').setAttribute('class', 'test')    // updates class name to 'test'
+//------------for styling------------------
+title.style.backgroundColor = 'grey'
+title.style.padding = "15px"
+title.style.border-radius = "15px"
+// above 3 lines will add the style in the attribute with id "title"
+title.textContent       // will show real data of html page
+title.innerHTML        // will show everything written even the inline CSS code applied on it
+title.innerText        // it will hide the data according to CSS in that id
+document.querySelector('h1')     // returns first h1 in the document
+document.querySelectorAll('h1')    // returns all h1s in the document and returns a tree format
+// querySelector('_') is used to select anything of document like image, tag/attribute or id, as per the condition given in the quotes in parenthesis
+// NOTE:- these returned results can also be stored in variable (even the HTML content or NodeList)
+// The array methods can be applied on it but only by giving them a index number unlike an array, applies on the all elements
+and further all CSS or any other manipulation can be done in the same way
+
