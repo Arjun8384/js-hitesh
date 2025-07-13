@@ -12,12 +12,12 @@
     </ul>
 </body>
 <script>
-    function addLanguage(langName){
+    function addLanguage(langName){    // function to add 
         const li = document.createElement('li');
         li.innerHTML = `${langName}`
         document.querySelector('.language').appendChild(li)
-    }
-    addLanguage("python")
+    } 
+    addLanguage("python") 
     addLanguage("typescript")
 
     function addOptiLanguage(langName){
@@ -30,8 +30,8 @@
     //Edit
     const secondLang = document.querySelector("li:nth-child(2)")
     console.log(secondLang);
-    //secondLang.innerHTML = "Mojo"
-    const newli = document.createElement('li')
+    //secondLang.innerHTML = "Mojo"    // less optimised
+    const newli = document.createElement('li')    // more optimised method
     newli.textContent = "Mojo"
     secondLang.replaceWith(newli)
 
