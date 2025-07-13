@@ -12,15 +12,14 @@
 <script>
     const div = document.createElement('div')
     console.log(div);
-    div.className = "main"
-    div.id = Math.round(Math.random() * 10 + 1)
-    div.setAttribute("title", "generated title")
-    div.style.backgroundColor = "green"
+    div.className = "main"    // className and not class to give a class to the element
+    div.id = Math.round(Math.random() * 10 + 1)    // adding an id
+    div.setAttribute("title", "generated title")    // setting a new attribute
+    div.style.backgroundColor = "green"    // setting some CSS
     div.style.padding = "12px"
-    // div.innerText = "Chai aur code"
-    const addText = document.createTextNode("Chai aur code")
+    // div.innerText = "Chai aur code"        // it overwrites directly
+    const addText = document.createTextNode("Chai aur code")    // preferred way to attach the content; below 2 lines including this one
     div.appendChild(addText)
-
     document.body.appendChild(div)
 </script>
 </html>
